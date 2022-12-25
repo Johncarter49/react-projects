@@ -133,7 +133,7 @@ p {
   }
 }
 
-main {
+.main {
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -148,6 +148,7 @@ main {
   border-radius: var(--radius);
   padding: 1.5rem 2rem;
   box-shadow: var(--dark-shadow);
+  
 }
 .container h3 {
   font-weight: normal;

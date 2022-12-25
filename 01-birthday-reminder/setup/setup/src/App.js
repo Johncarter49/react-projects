@@ -8,10 +8,9 @@ function App() {
 
 
   return (
-  <>
-  <h2>reminder project setup</h2>
+  <div className="main">
   <List user={user} setUser={setUser} />
-  </>
+  </div>
   )
 }
 
